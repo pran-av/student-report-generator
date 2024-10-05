@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts"
+//import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts"
 
 export default function Component({ studentData }) {
-  const [currentDate, setCurrentDate] = useState(new Date())
+  const [currentDate] = useState(new Date())
 
  
 
-  const COLORS = ['#4CAF50', '#FFA000']
+  //const COLORS = ['#4CAF50', '#FFA000']
 
   const daysInMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate()
   const firstDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1).getDay()

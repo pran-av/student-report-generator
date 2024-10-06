@@ -1,21 +1,21 @@
 import React, { useState } from 'react'
-import StudentDataForm from './StudentDataForm'
-import ActivityReport from './ActivityReport'
+//import StudentDataForm from './StudentDataForm'
+import ROIReport from './ROIReport'
 
 export default function Home() {
+  /*
   const [studentData, setStudentData] = useState(null)
 
   const handleFormSubmit = (data) => {
     setStudentData(data)
   }
 
+  */
+
   return (
     <div>
-      {!studentData ? (
-        <StudentDataForm onSubmit={handleFormSubmit} />
-      ) : (
-        <ActivityReport studentData={studentData} />
-      )}
+      
+      <ROIReport />
     </div>
   )
 }

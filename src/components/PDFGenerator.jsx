@@ -1,3 +1,4 @@
+/*
 import React from 'react'
 //import { Button } from "../components/ui/button"
 import html2canvas from 'html2canvas'
@@ -22,3 +23,5 @@ export default function PDFGenerator({ reportRef }) {
     <button onClick={generatePDF}>Download PDF</button>
   )
 }
+
+*/

@@ -1,3 +1,4 @@
+/*
 import React, { useState } from 'react'
 //import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts"
 
@@ -91,3 +92,4 @@ export default function Component({ studentData }) {
     </div>
   )
 }
+*/
